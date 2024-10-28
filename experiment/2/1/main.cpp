@@ -1,7 +1,15 @@
 #include <iostream>
 #include <cmath>
 
-#include "main.h"
+class Rectangle {
+protected:
+    int Left, Top;
+    int Right, Bottom;
+public:
+    Rectangle(int left, int top, int right, int bottom);
+    int Diagonal();
+    void Show();
+};
 
 using namespace std;
 
